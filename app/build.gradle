@@ -17,8 +17,8 @@ android {
         }
     }
     externalNativeBuild {
-        ndkBuild {
-            path 'jni/Android.mk'
+        cmake {
+            path "CMakeLists.txt"
         }
     }
 }

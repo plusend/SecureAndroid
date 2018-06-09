@@ -8,7 +8,7 @@ import android.content.pm.Signature;
 public class SignUtil {
 
     static {
-        System.loadLibrary("sign");
+        System.loadLibrary("sign-lib");
     }
 
     private static native int sign(Context context);
